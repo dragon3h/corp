@@ -1,7 +1,12 @@
+import Hero from '@/components/hero';
+import scaleImg from '../../../public/scale.jpg';
+
 export default function Scale() {
   return (
-    <div>
-      <h1>Scale page</h1>
-    </div>
+    <Hero
+        imgData={scaleImg}
+        imgAlt='Scale background'
+        title='Scale covered sdf CCCCCCCCCCCCCCCCC'
+      />
   );
 }

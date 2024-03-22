@@ -1,7 +1,12 @@
+import Hero from '@/components/hero';
+import performanceImg from '../../../public/performance.jpg';
+
 export default function Performance() {
   return (
-    <div>
-      <h1>Performance page</h1>
-    </div>
+    <Hero
+        imgData={performanceImg}
+        imgAlt='performance background'
+        title='Performance covered sdf AAAAAAAAAAAAAAAAAAAAAA'
+      />
   );
 }

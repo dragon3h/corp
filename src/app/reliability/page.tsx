@@ -1,7 +1,12 @@
+import Hero from '@/components/hero';
+import reliabilityImg from '../../../public/reliability.jpg';
+
 export default function Reliability() {
   return (
-    <div>
-      <h1>Reliability page</h1>
-    </div>
+    <Hero
+        imgData={reliabilityImg}
+        imgAlt='Reliability background'
+        title='Reliability covered sdf BBBBBBBBBBBBBBBB'
+      />
   );
 }
